@@ -1,0 +1,46 @@
+
+
+
+.title{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.title2{
+  text-align: center;
+  margin-bottom: 5px;
+  
+}
+
+.period{
+    column-rule-color: grey;
+
+}
+
+.section_title{
+    margin-bottom: 0px;
+    margin-top: 20px;
+    color: cornflowerblue;
+    background-color: cyan;
+}
+
+.period{
+    font-style: italic;
+}
+
+#phone{
+    color: blue;
+    text-decoration-style: solid;
+}
+
+#mail{
+    color: blue;
+    text-decoration-style: solid;
+}
+
+h1{
+    background-color: aquamarine;
+    color: blue;
+    text-decoration-style: wavy;
+    margin: auto;    
+}
