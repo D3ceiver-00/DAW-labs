@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: #331;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+nav {
+    flex-grow: 3;
+}
+
+.section-container {
+    flex-grow: 6;
+    height: 100%;
+    width: min-content;
+}
+
+aside {
+    flex-grow: 3;
+}
+
+section {
+    /* align-content: flex-end; */
+}
