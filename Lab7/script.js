@@ -33,7 +33,7 @@ $(document).ready(function() {
             method: "GET"
         })  
         .then(function(response){
-            //console.log(response); //test console log request
+            console.log(response); //test console log request
             response.data.forEach(gif => {
                 var animalDiv = $(`<div class='animal-item'>`);
                 var rating = gif.rating;
@@ -42,7 +42,6 @@ $(document).ready(function() {
                 
                 var animated = gif.images.fixed_height.url;
                 var still = gif.images.fixed_height_still.url;
-                //console.log(still);
 
                 var animalImage = $("<img>");
                 animalImage.attr("src", still);
